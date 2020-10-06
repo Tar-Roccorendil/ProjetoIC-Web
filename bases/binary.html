@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Binário</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+          <header class="sidebar-menu">
+              <div class="menu-item">
+                  <a href="../index.html#sobre">Dados Acadêmicos</a>
+              </div>
+              <div class="menu-item">
+                  <a href="../index.html#bases">Sistemas de Numeração</a>
+              </div>
+              <div class="menu-item">
+                  <a href="../index.html#hobbies">Hobbies/Projetos</a>
+              </div>    
+          </header>
+          <div class="sidebar-info">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Phi_lc.svg" alt="Imagem de Perfil" id="profile-picture">
+              <p>Contato</p>
+              <ul id="contato">
+                  <li>E-mail: <a href="mailto:fgv@cin.ufpe.br">CIn</a></li>
+                  <li>Telefone: +55 (81) 98190-2227</li>
+              </ul>
+          </div>
+      </div>
+      <div class="main">
+        <div class="section">
+          <h1>Binário</h1>
+          <p>
+            Binário, abreviado como BIN, é o sistema de numeração de base 2<sub>DEC</sub>. O nome é de origem latina. Embora seja de grande importância para a computação moderna, poucas pessoas defendem o seu uso geral.
+          <p>
+            Atualmente, praticamente todos os computadores usam esse sistema. As operações matemáticas mais simples são triviais, já que todas as somas e produtos entre números de um algarismo são triviais, e as operações básicas podem ser reduzidas a adições e multiplicações de um algarismo. No entanto, como números em binário são tão grandes, as oportunidades de erro são muito mais frequentes para um humano. Por isso, outras bases como quaternário ou <a href="./bases/naturais/hex">hex</a> são usadas de como intermediárias.
+          <p>
+            No sistema de numeração binário, os primeiros números naturais tem a seguinte importância:
+        </div>
+        <table>
+          <tr>
+            <th colspan="2">
+              <i>n</i>
+            <th rowspan="2">
+              Tipo
+            <th rowspan="2">
+              Nível
+          <tr>
+            <th>DEC<th>BIN
+          <tr>
+            <th>1<th>1
+            <td>
+              Primária
+            <td>
+              0
+          <tr>
+            <th>2<th>10
+            <td>
+              Primária
+            <td>
+              1
+          <tr>
+            <th>3<th>11
+            <td>Secundária
+            <td>2
+          <tr>
+            <th>4<th>100
+            <td>Primária
+            <td>2
+          <tr>
+            <th>5<th>101
+            <td>Secundária
+            <td>4
+          <tr>
+            <th>6<th>110
+            <td>Terciária
+            <td>3
+          <tr>
+            <th>7<th>111
+            <td>Secundária
+            <td>3
+          <tr>
+            <th>8<th>1000
+            <td>Primária
+            <td>3
+          <tr>
+            <th>9<th>1001
+            <td>Secundária
+            <td>6
+          <tr>
+            <th>10<th>1010
+            <td>Terciária
+            <td>5
+          <tr>
+            <th>11<th>1011
+            <td>Secundária
+            <td>10
+          <tr>
+            <th>12<th>1100
+            <td>Terciária
+            <td>4
+        </table>
+        <div>
+          <p>
+            A maior parte dos números que não são potências de 10<sub>BIN</sub> têm nível de importância bastante   baixo. Isso ocorre porque, sendo 10<sub>BIN</sub> um número primo, suas potências só tem outras potências de 10<sub>BIN</sub> como divisores, limitando a importância primária apenas a esses números. Isso torna binário uma base inconveniente para aritmética por humanos.
+          <p>
+            Como o sistema de numeração binário só precisa de dois algarismos, eu gosto bastante do uso de sistemas semelhantes a binário na construção dos próprios caracteres dos algarismos. Um sistema numérico de base até 64<sub>DEC</sub>(1000000<sub>BIN</sub>) poderia usar os seguintes algarismos:
+          </p>
+          <img src="../Imagens/base64-8-2.png" width="512px">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
