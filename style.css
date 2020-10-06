@@ -66,6 +66,9 @@ html, body {
     border-radius: 0.5rem;
     background-color: #222222;
     right:0.5vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
 }
 
 sub, sup{
